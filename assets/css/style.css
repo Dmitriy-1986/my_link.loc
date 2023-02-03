@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: calc(100vh - 56px);
+    margin: 0 auto;
+}
+
+.link-logout {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.form-box {
+    padding: 15px;
+    background-color: rgb(198, 198, 198);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    padding: 10px;
+}
+
+.happy-connect {
+    display: block; 
+    color: green; 
+    text-align: center;
+}
+
+.db-table-null {
+    display: block; 
+    color: blue; 
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.data-td {
+    width: 100%; 
+}
+
+.btn-submit {
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.btn-submit:focus {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
